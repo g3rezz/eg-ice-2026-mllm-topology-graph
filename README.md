@@ -1,6 +1,6 @@
 # Floor Plan Topology Extraction with Multimodal LLMs
 
-This repository is a project page for my work as first author of the paper **"A Multimodal LLM-Based Approach to Generating Topology Graphs of Buildings from Floor Plan Images."**
+This repository is a project page for my work as first author of the paper **"[A Multimodal LLM-Based Approach to Generating Topology Graphs of Buildings from Floor Plan Images](https://publications.rwth-aachen.de/record/1044886)."**
 
 The project investigates whether multimodal large language models can recover space-adjacency and connectivity graphs directly from architectural floor-plan images. It includes a reproducible extraction, normalization, validation, and repair pipeline, together with a reviewed 100-plan benchmark derived from the Modified Swiss Dwellings dataset.
 
@@ -39,3 +39,19 @@ The official repository includes:
 - a reviewed benchmark with fixed training and test splits;
 - retained evaluation artifacts; and
 - BOT-compatible Turtle export.
+
+## Citation
+
+If you use this work in your research, please cite the accompanying EG-ICE 2026 paper:
+
+```bibtex
+@inproceedings{Tsakov.2026,
+  author = {Tsakov, Georgi and Heimig-Elschner, Tobias and Oraskari, Jyrki and Mandalac, Vera-Teodora and Scheuvens, Anna and Schulz, Oliver and Beetz, Jakob},
+  title = {A Multimodal LLM-Based Approach to Generating Topology Graphs of Buildings from Floor Plan Images},
+  booktitle = {Proceedings of the 33rd EG-ICE International Workshop on Intelligent Computing in Engineering},
+  address = {Padova, Italy},
+  year = {2026},
+  note = {Proceedings forthcoming},
+  url = {https://publications.rwth-aachen.de/record/1044886}
+}
+```
